@@ -18,7 +18,7 @@ def find_coordinates(box_num, x_val, y_val, z_val):
     '''
     box_num : str
                 number of the box in a string according to row-col-offset format
-        x_val, y_val, z_val: int
+    x_val, y_val, z_val: int
                 coordinates of the box        
     '''
     x_coord = ((int(box_num[1]) - 1) * x_val) + (x_val * 0.5)
