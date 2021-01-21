@@ -16,8 +16,8 @@ def col_conversion(col_str):
 # calculation for the coordinates
 def find_coordinates(box_num, x_val, y_val, z_val):    
     '''
-    box_num : int
-                number of the box
+    box_num : str
+                number of the box in a string according to row-col-offset format
         x_val, y_val, z_val: int
                 coordinates of the box        
     '''
@@ -29,5 +29,4 @@ def find_coordinates(box_num, x_val, y_val, z_val):
 
 
 # gives output of the coordinates for a specifix box
-
 print(find_coordinates("33A", 500, 200 , 300))
